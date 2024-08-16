@@ -5,7 +5,7 @@ import sys
 import numpy
 import string
 
-
+#preprocessing the file to tokens
 def tokenise_strings(filename):
     nltk.download('popular')
     f = open(filename,"r")
