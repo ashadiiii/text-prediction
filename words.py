@@ -1,5 +1,5 @@
 import random
-from words import file2prob, file2pairs,tokenise_strings
+from predict import file2prob, file2pairs,tokenise_strings
 import sys
 
 loops = int(sys.argv[2])
