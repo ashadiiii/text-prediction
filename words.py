@@ -8,7 +8,6 @@ support = tokenise_strings(file)
         
 words_and_probs = file2prob(file)
 
-
 probs = words_and_probs.values()
 word = random.choices(support,probs)[0]
 words_dict = file2pairs(file) 
