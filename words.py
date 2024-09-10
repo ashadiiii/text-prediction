@@ -20,6 +20,7 @@ for _ in range(loops-1):
     word= word[0]
     print(word+" ",end="")
 
+
 print()
     
 
